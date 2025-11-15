@@ -1,0 +1,16 @@
+.custom-tooltip .tooltip-inner {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #212529; /* Dark text for contrast */
+  border: 1px solid #dee2e6; /* Light border */
+  max-width: 350px; /* Adjust width as needed */
+  text-align: left;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+.custom-tooltip.bs-tooltip-bottom .arrow::before {
+  border-bottom-color: #f8f9fa; /* Match tooltip background */
+}
+
+.custom-tooltip.bs-tooltip-top .arrow::before {
+  border-top-color: #f8f9fa; /* Match tooltip background */
+}

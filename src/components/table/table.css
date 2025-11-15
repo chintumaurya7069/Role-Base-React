@@ -1,0 +1,13 @@
+.dropdown-toggle::after {
+  display: none !important;
+}
+.btn:not([class*="btn-label-"]):not([class*="btn-outline-"]) {
+  box-shadow: none;
+}
+
+/* -=-=-==-=-= */
+
+/* For dark mode compatibility */
+[data-bs-theme="dark"] .sticky-column {
+  background-color: var(--bs-body-bg);
+}

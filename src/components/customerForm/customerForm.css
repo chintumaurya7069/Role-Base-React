@@ -1,0 +1,11 @@
+.customer-dob-custom {
+  z-index: 1100 !important;
+}
+
+.customer-dob-custom .p-datepicker-buttonbar{
+  padding: 0 12px;
+}
+
+.customer-dropdown-custom .p-dropdown-items-wrapper{
+  max-width: 243px;
+}

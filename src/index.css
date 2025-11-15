@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table tr th,
+td {
+  white-space: nowrap;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* -=-=-=-=-=-= */
+
+.create-new-btn {
+  margin-right: -2px;
+}
+
+.play-list-title {
+  padding: 12px !important;
+}
+
+.play-list-title h6 {
+  color: #7367f0 !important;
+}
+.table-primary-color thead {
+  background-color: #7367f0;
+}
+.table-primary-color thead tr th {
+  color: white !important;
+}
+
+.drag-handle {
+  cursor: move;
+  cursor: -webkit-grabbing;
+}
+
+.ReactSortable {
+  min-height: 20px;
+}
+
+.ReactSortable > div {
+  background: white;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.ReactSortable > div.sortable-chosen {
+  background: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sortable-ghost {
+  opacity: 0.5;
+  background: #c8ebfb;
+}
+
+.drag-handle {
+  cursor: move;
+  touch-action: none;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.permissions-wrapper {
+  border: 1px solid #dbdade;
+  border-radius: 5px;
+}
+
+.module-row {
+  border-bottom: 1px solid #dbdade;
+  display: flex;
+  align-items: center;
+}
+
+.module-row:last-child {
+  border-bottom: none;
+}
+
+.module-row-part {
+  width: 30%;
+}
+
+.actions-row-part {
+  width: 70%;
+  gap: 28px;
+  border-left: 1px solid #dbdade;
+}
+
+/* -=-=-=-=-=-=-=-==-table collapse=-==-=--=-=-=-=-=-=-=-= */
+.collapse-content {
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+
+.nested-table {
+  transition: all 0.3s ease-out;
+}
+
+.collapse-row {
+  transition: all 0.3s ease;
+}
+
+.collapsing {
+  transition: height 0.3s ease;
+}
+
+/* --=-=-=-=-=-=-- */
+
+.custom-btn-file {
+  border: 1px solid #dbdade !important;
+  background-color: #fff !important;
+  border-radius: 0.375rem !important;
+  border-right: none !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  font-weight: 400 !important;
+  color: #6f6b7d !important;
+  padding: 6.753px 14px !important;
+}
+
+.custom-btn-file:focus-within {
+  background-color: #f1f0f2 !important;
+  color: #6f6b7d !important;
+  font-weight: 400 !important;
+  border: 1px solid rgb(217, 216, 220) !important;
+  border-right: none !important;
+}
+
+.custom-btn-file:hover {
+  background-color: #f1f0f2 !important;
+  color: #6f6b7d !important;
+  font-weight: 400 !important;
+  border: 1px solid rgb(217, 216, 220) !important;
+  border-right: none !important;
+}
+
+.custom-btn-file:focus {
+  border-right: none !important;
+  border-color: #7367f0 !important;
+}
+
+.custom-input-file {
+  cursor: pointer;
+  border-top-right-radius: 0.375rem !important;
+  border-bottom-right-radius: 0.375rem !important;
+}
+
+.custom-input-file:focus-within {
+  border-left: none !important;
+}
+
+.custom-input-file:focus {
+  border-left: none !important;
+}
+
+.input-group:hover .custom-btn-file {
+  background-color: #f1f0f2 !important;
+  color: #6f6b7d !important;
+  font-weight: 400 !important;
+  border: 1px solid rgb(217, 216, 220) !important;
+  border-right: none !important;
+  transition: all 0.3s;
+}
+
+.vendor-modal .modal-dialog {
+  max-width: 1111px !important;
+}
+
+.manufactureBy-multiSelect-panel {
+  z-index: 1190 !important;
+}
+select.form-control option:hover {
+  background-color: #7367f0;
+  color: white;
+}
