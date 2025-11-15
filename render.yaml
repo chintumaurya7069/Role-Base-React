@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: admin_dashboard
+    buildCommand: npm run build
+    staticPublishPath: build
+    branch: main
+    repo: https://github.com/RashvinSky/admin_frontend
